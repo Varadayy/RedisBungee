@@ -1,6 +1,6 @@
 name: RedisBungee
 main: com.imaginarycode.minecraft.redisbungee.RedisBungee
-version: 0.5
-author: chunkr
+version: 0.6.4
+author: chunkr, Varaday
 # This is used so that we can automatically override default BungeeCord behavior.
 softDepends: ["cmd_find", "cmd_list"]

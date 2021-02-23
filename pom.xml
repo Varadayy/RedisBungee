@@ -6,7 +6,7 @@
 
     <groupId>com.imaginarycode.minecraft</groupId>
     <artifactId>RedisBungee</artifactId>
-    <version>0.6.4</version>
+    <version>0.6.6</version>
     <packaging>jar</packaging>
 
     <!-- Roles -->
@@ -50,7 +50,7 @@
             <url>http://repo.md-5.net/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-         
+
     <!-- Maven builder -->
     <build>
         <plugins>
@@ -77,27 +77,27 @@
                             <relocations>
                                 <relocation>
                                     <pattern>redis.clients.jedis</pattern>
-                                    <shadedPattern>com.imaginarycode.minecraft.redisbungee.internal.jedis
+                                    <shadedPattern>${project.groupId}.redisbungee.internal.jedis
                                     </shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>redis.clients.util</pattern>
-                                    <shadedPattern>com.imaginarycode.minecraft.redisbungee.internal.jedisutil
+                                    <shadedPattern>${project.groupId}.redisbungee.internal.jedisutil
                                     </shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache.commons.pool</pattern>
-                                    <shadedPattern>com.imaginarycode.minecraft.redisbungee.internal.commonspool
+                                    <shadedPattern>${project.groupId}.redisbungee.internal.commonspool
                                     </shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.squareup.okhttp</pattern>
-                                    <shadedPattern>com.imaginarycode.minecraft.redisbungee.internal.okhttp
+                                    <shadedPattern>${project.groupId}.redisbungee.internal.okhttp
                                     </shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>okio</pattern>
-                                    <shadedPattern>com.imaginarycode.minecraft.redisbungee.internal.okio
+                                    <shadedPattern>${project.groupId}.redisbungee.internal.okio
                                     </shadedPattern>
                                 </relocation>
                             </relocations>

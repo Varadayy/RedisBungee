@@ -21,8 +21,8 @@
         <developer>
             <name>Varaday</name>
             <roles>
-                <role>Maintainer</role>
                 <role>Updater</role>
+                <role>Maintainer</role>
             </roles>
         </developer>
     </developers>

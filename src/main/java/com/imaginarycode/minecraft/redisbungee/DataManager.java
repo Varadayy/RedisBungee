@@ -33,6 +33,7 @@ import java.util.logging.Level;
  *
  * @since 0.3.3
  */
+
 public class DataManager implements Listener {
     private final RedisBungee plugin;
     private final Cache<UUID, String> serverCache = createCache();

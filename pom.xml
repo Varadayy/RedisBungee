@@ -50,7 +50,8 @@
             <url>http://repo.md-5.net/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-
+         
+    <!-- Maven builder -->
     <build>
         <plugins>
             <plugin>

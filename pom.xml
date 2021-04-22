@@ -33,7 +33,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <!-- Maven builder -->
+    <!-- Maven Builder -->
     <build>
         <plugins>
             <plugin>

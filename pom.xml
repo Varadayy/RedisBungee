@@ -9,24 +9,6 @@
     <version>0.6.6</version>
     <packaging>jar</packaging>
 
-    <!-- Roles -->
-    <developers>
-        <developer>
-            <name>chunkr</name>
-            <roles>
-                <role>Author</role>
-            </roles>
-        </developer>
-
-        <developer>
-            <name>Varaday</name>
-            <roles>
-                <role>Updater</role>
-                <role>Maintainer</role>
-            </roles>
-        </developer>
-    </developers>
-
     <!-- Bungeecord Repo -->
     <repositories>
         <repository>
